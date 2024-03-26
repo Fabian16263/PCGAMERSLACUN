@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC GAMERS LA CUN</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+
+    <style>
+        /* Estilos para los botones */
+        .link {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #6a0dad; /* Color púrpura fosforescente */
+            border-radius: 5px;
+            background-color: #6a0dad; /* Color de fondo púrpura fosforescente */
+            color: #ffffff; /* Texto blanco */
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #8e47ff; /* Cambio de color al pasar el mouse */
+            border-color: #8e47ff; /* Cambio de color del borde al pasar el mouse */
+        }
+
+         /* Estilos para el contenedor del logo */
+         .logo-container {
+            position: absolute;
+            top: 0px; /* Distancia desde arriba */
+            right: 20px; /* Distancia desde la derecha */
+        }
+
+        /* Estilos para el logo */
+        .logo {
+            max-width: 120px; /* Ancho máximo del logo */
+            height: auto; /* Altura automática para mantener la proporción */
+        }
+
+        h1 {
+            color: transparent; /* Hacer el texto del título transparente */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+            font-size: 48px; /* Tamaño de fuente */
+            background: linear-gradient(45deg, #ff00cc, #ff0000); /* Degradado de color */
+            -webkit-background-clip: text; /* Clip de fondo para aplicar el degradado solo al texto */
+            background-clip: text;
+            -webkit-text-fill-color: transparent; /* Rellenar el texto con el degradado */
+            animation: shine 3s infinite alternate;
+        }
+        h2 {
+            color: transparent; /* Hacer el texto del título transparente */
+            font-family: cursive, sans-serif; /* Fuente divertida */
+            font-size: 30px; /* Tamaño de fuente */
+            background: linear-gradient(45deg, #0801A0, #ff0000); /* Degradado de color */
+            -webkit-background-clip: text; /* Clip de fondo para aplicar el degradado solo al texto */
+            background-clip: text;
+            -webkit-text-fill-color: transparent; /* Rellenar el texto con el degradado */
+            animation: shine 3s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PC GAMERS LA CUN</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="link">Inicio</a></li>
+                <li><a href="Mision.html" class="link">Misión</a></li>
+                <li><a href="Vision.html" class="link">Visión</a></li>
+                <li><a href="Historia.html" class="link">Historia</a></li>
+                <li><a href="Sedes.html" class="link">Sedes</a></li>
+                <li><a href="Productos.html" class="link">Productos</a></li>
+            </ul>
+        </nav>
+        <div class="logo-container">
+            <!-- Logo -->
+            <img src="img/cun.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    
+
+    <section id="inicio" class="rgb-section">
+        <div class="welcome-message">
+            <h2>HISTORIA</h2>
+        </div>
+        <div class="feature-box-container">
+            <div class="feature-box blue-box">
+                <img src="img/Historia.jpg" alt="" width="450px" height="500px" >
+            <H1>COMO EMPEZO</H1>
+            </div>
+            <div class="flecha">
+                <img src="img/flecha.png" alt="" width="40px" height="40px" >
+            </div>
+            <div class="feature-box blue-box">
+                <img src="img/Historia 2.jpg" alt="" width="450px" height="500px">
+                <H1>PRESENTE</H1>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PC GAMERS LA CUN</p>
+    </footer>
